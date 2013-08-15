@@ -37,69 +37,67 @@
 	<section class="space-bottom">
 	    <article class="container">
 
-	        <h1 class="text-center" id="more">How It Works</h1>
+	        <h1 class="text-center" id="more">Getting Started</h1>
 
-            <p>The widgets provided by Twitter, Facebook, and other services require numerous HTTP requests and can really hurt the performance of your sites and apps.</p>
+            <p>The widgets provided by Twitter, Facebook, and other services require numerous HTTP requests and can really hurt the performance of your sites and apps. These simple CSS and HTML snippets make it easy for you to go social - without hurting site performance.</p>
 
-            <p>These simple CSS and HTML snippets make it easy for you to go social - without hurting site performance.</p>
-
-	        <hr>
-
-
-	        <h1 class="text-center">Social Buttons</h1>
-
-            <p>A few simple classes turn <code>button</code> and <code>a</code> elements into branded social media buttons.</p>
-
+            <p class="space-bottom-small"><strong>Social Sharing Buttons</strong></p>
             <p>
-                <button class="btn btn-tweet">Tweet</button>
-                <button class="btn btn-facebook">Share</button>
+                <button class="btn btn-tweet">Twitter</button>
+                <button class="btn btn-facebook">Facebook</button>
                 <button class="btn btn-google">Google+</button>
                 <button class="btn btn-linkedin">LinkedIn</button>
             </p>
 
-            <pre>&lt;a class="btn btn-tweet" href="#"&gt;Tweet&lt;/a&gt;
-&lt;a class="btn btn-facebook" href="#"&gt;Share&lt;/a&gt;
-&lt;a class="btn btn-google" href="#"&gt;Google+&lt;/a&gt;
-&lt;a class="btn btn-linkedin" href="#"&gt;LinkedIn&lt;/a&gt;</pre>
+            <p class="space-bottom-small"><strong>Social Sharing Links</strong></p>
+            <p>
+                <a target="_blank" href="https://twitter.com/intent/tweet?text=Check out the Social Sharing add-on for Kraken&url=http://cferdinandi.github.io/social-sharing/&via=chrisferdinandi">Tweet This</a><br>
+                <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://cferdinandi.github.io/social-sharing/">Share on Facebook</a><br>
+                <a target="_blank" href="https://plus.google.com/share?url=http://cferdinandi.github.io/social-sharing/">Plus on Google+</a></br>
+                <a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http://cferdinandi.github.io/social-sharing/&title=Check out the Social Sharing add-on for Kraken&summary=Check out the Social Sharing add-on for Kraken&source=http://cferdinandi.github.io/social-sharing/">Share on LinkedIn</a>
+            </p>
+
+            <p><em>What about icons? Add your own lightweight icons with an <a href="http://gomakethings.com/icon-fonts/">icon font</a>.</em></p>
 
 	        <hr>
 
 
-	        <h1 class="text-center">Sharing Links</h1>
+            <h1 class="text-center">How to use Social Sharing</h1>
 
-            <p>To include sharing links for Twitter, Facebook, Google+ and LinkedIn, just add your URL's and titles where indicated in these snippets.</p>
+            <h2>1. Include Social Sharing on your site.</h2>
 
-            <p>Make sure to replace spaces with <code>%20</code> in your article and page titles.</p>
+            <pre>&lt;link rel="stylesheet" href="social-sharing.css"&gt;</pre>
 
-            <p><strong>Twitter</strong></p>
+            <p>If you're <em>not</em> using the <a href="http://cferdinandi.github.io/kraken/">Kraken boilerplate</a>, you might also need to include the button styling.</p>
 
-            <pre>&lt;a target="_blank" href="https://twitter.com/intent/tweet?text=YOUR-TITLE&url=YOUR-URL&via=TWITTER-HANDLE"&gt;Twitter&lt;/a&gt;</pre>
+            <pre>&lt;link rel="stylesheet" href="kraken-buttons.css"&gt;</pre>
 
+
+            <h2>2. Add the markup to your HTML.</h2>
+
+            <p>A few simple classes turn <code>button</code> and <code>a</code> elements into branded social media buttons.</p>
+
+            <pre>&lt;a class="btn btn-tweet" href="#"&gt;Twitter&lt;/a&gt;
+&lt;a class="btn btn-facebook" href="#"&gt;Facebook&lt;/a&gt;
+&lt;a class="btn btn-google" href="#"&gt;Google+&lt;/a&gt;
+&lt;a class="btn btn-linkedin" href="#"&gt;LinkedIn&lt;/a&gt;</pre>
+
+            <p>To include sharing links for Twitter, Facebook, Google+ and LinkedIn, just add your URL's and titles where indicated in these snippets. Combine with the branded buttons for sharing buttons.</p>
+
+            <pre>&lt;a target="_blank" href="https://twitter.com/intent/tweet?text=YOUR-TITLE&url=YOUR-URL&via=TWITTER-HANDLE"&gt;Tweet&lt;/a&gt;
             
-            <p><strong>Facebook</strong></p>
+&lt;a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=YOUR-URL"&gt;Share on Facebook&lt;/a&gt;
 
-            <pre>&lt;a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=YOUR-URL"&gt;Facebook&lt;/a&gt;</pre>
+&lt;a target="_blank" href="https://plus.google.com/share?url=YOUR-URL"&gt;Plus on Google+&lt;/a&gt;
 
-            
-            <p><strong>Google+</strong></p>
-
-            <pre>&lt;a target="_blank" href="https://plus.google.com/share?url=YOUR-URL"&gt;Google+&lt;/a&gt;</pre>
-
-            
-            <p><strong>LinkedIn</strong></p>
-
-            <pre>&lt;a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=YOUR-URL&title=YOUR-TITLE&summary=YOUR-SUMMARY&source=YOUR-URL"&gt;LinkedIn&lt;/a&gt;</pre>
-
-            <hr>
+&lt;a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=YOUR-URL&title=YOUR-TITLE&summary=YOUR-SUMMARY&source=YOUR-URL"&gt;Share on LinkedIn&lt;/a&gt;</pre>
 
 
-            <h1 class="text-center">Adding Icons & Expanded Sharing Options</h1>
+            <h2>3. Pat yourself on the back.</h2>
 
-            <p>To add icons to your share links, try using <a href="http://gomakethings.com/icon-fonts/">icon fonts</a>.</p>
+            <p>Seriously, you're done. Nice work! Modify as needed.</p>
 
-            <p>If you'd prefer to offer a single sharing icon that reveals all sharing options, also include <a href="http://cferdinandi.github.com/modals/">Modals</a> or <a href="http://cferdinandi.github.com/houdini/">Houdini</a>.</p>
-
-            <hr>
+	        <hr>
 
 
             <h1 class="text-center">Browser Support</h1>
