@@ -738,6 +738,22 @@ select:focus {
 
 
 
+/* CALLOUTS */
+
+.hero {
+  background-color: #f7f7f7;
+  margin-bottom: 1.5625em;
+  padding: 1.5em;
+  border: 0.0725em solid #e5e5e5;
+  border-radius: 0.0725em;
+}
+
+.hero-condensed {
+  padding: 0.9375em;
+}
+
+
+
 
 
 /*  SOCIAL SHARING BUTTONS */
