@@ -1171,6 +1171,18 @@ a .btn-xing:hover {
   border-color: #082222;
 }
 
+/*  Tumblr */
+.btn-tumblr {
+  background-color: #35465c;
+  border-color: #35465c;
+}
+
+.btn-tumblr:hover,
+a .btn-tumblr:hover {
+  background-color: #19212b;
+  border-color: #19212b;
+}
+
 /* =============================================================
 	ALIGNMENT, SPACING & VISIBILITY
 	Override default alignment, spacing and visibilty.
