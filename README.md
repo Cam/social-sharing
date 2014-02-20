@@ -8,7 +8,7 @@ Based on [social sharing links and buttons without the bloat](https://github.com
 * Facebook
 * Google+
 * Tumblr
-* linkedIn
+* LinkedIn
 * Fancy
 * Pinterest
 * VK
