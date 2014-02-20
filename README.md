@@ -1,24 +1,7 @@
 # Social Sharing
-Add social sharing links and buttons without the bloat.
+These are simply formatted links that allow you to create dynamic or static sharing tools. Counters and other proprietary scripts have been removed. This removes any need for excessive external HTTP requests to social networks.
 
-The widgets provided by Twitter, Facebook, and other services require numerous HTTP requests and can really hurt the performance of your sites and apps. These simple CSS and HTML snippets make it easy for you to go social - without hurting site performance.
-
-## How It Works
-Getting started with Social Sharing is really easy. [View the online tutorial](http://cferdinandi.github.com/social-sharing/) or dig through the `index.html` file.
-
-## Changelog
-* v1.4 (January 13, 2014)
-  * Added Tumblr support.
-* v1.3 (December 6, 2013)
-  * Added Sass support.
-* v1.2 (November 9, 2013)
-  * Added GitHub button.
-* v1.1 (October 26, 2013)
-  * Added Pinterest support.
-* v1.0 (June 7, 2013)
-  * Switched to MIT license.
-* Version 1.0 (April 2, 2013)
-  * Initial release.
+Based on Based on [social sharing links and buttons without the bloat](https://github.com/cferdinandi/social-sharing) by [@cferdinandi](https://github.com/cferdinandi)
 
 ## License
 Social Sharing is free to use under the [MIT License](http://gomakethings.com/mit/).
