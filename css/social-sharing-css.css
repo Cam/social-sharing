@@ -11,10 +11,16 @@
 
 body {
 	font-family: sans-serif;
+	color: #777777;
+	text-align: center;
 }
 
-p {
-	text-align: center;
+a {
+	color: #6eb0ff;
+}
+
+h1 {
+	font-size: 230%;
 }
 
 a.share {
