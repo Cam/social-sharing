@@ -1,118 +1,58 @@
 /* =============================================================
 
-	Social Sharing v1.4
-	Social sharing links and buttons without the bloat by Chris Ferdinandi.
-	http://gomakethings.com
+	Simple Social Sharing v1.0
+	Fork by Cam http://camgould.com
+	Based on work by Chris Ferdinandi http://gomakethings.com
 
 	Free to use under the MIT License.
 	http://gomakethings.com/mit/
 
  * ============================================================= */
-/*  Variables */
-/*  Twitter */
-.btn-tweet {
-  background-color: #41b7d8;
-  border-color: #41b7d8;
+
+body {
+	font-family: sans-serif;
 }
 
-.btn-tweet:hover,
-a .btn-tweet:hover {
-  background-color: #238caa;
-  border-color: #238caa;
+p {
+	text-align: center;
 }
 
-/*  Facebook */
-.btn-facebook {
-  background-color: #3b5997;
-  border-color: #3b5997;
+a.share {
+    opacity: .75;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    font-weight:200;
+}
+a.share:hover {
+	opacity: 1.0;
 }
 
-.btn-facebook:hover,
-a .btn-facebook:hover {
-  background-color: #263960;
-  border-color: #263960;
+a.share#twitter {
+	color: #3697b2;
 }
-
-/*  Google */
-.btn-google {
-  background-color: #d64937;
-  border-color: #d64937;
+a.share#facebook {
+	color: #3b5997;
 }
-
-.btn-google:hover,
-a .btn-google:hover {
-  background-color: #a02f21;
-  border-color: #a02f21;
+a.share#google {
+	color: #d64937;
 }
-
-/*  LinkedIn */
-.btn-linkedin {
-  background-color: #0073b2;
-  border-color: #0073b2;
+a.share#tumblr {
+	color: #3d5874;
 }
-
-.btn-linkedin:hover,
-a .btn-linkedin:hover {
-  background-color: #004265;
-  border-color: #004265;
+a.share#linkedin {
+	color: #0073b2;
 }
-
-/*  Pinterest */
-.btn-pinterest {
-  background-color: #cb2027;
-  border-color: #cb2027;
+a.share#fancy {
+	color: #4aa6e1;
 }
-
-.btn-pinterest:hover,
-a .btn-pinterest:hover {
-  background-color: #89161a;
-  border-color: #89161a;
+a.share#pinterest {
+	color: #c9232c;
 }
-
-/*  GitHub */
-.btn-github {
-  background-color: #3a3838;
-  border-color: #3a3838;
+a.share#vk {
+	color: #57789a;
 }
-
-.btn-github:hover,
-a .btn-github:hover {
-  background-color: #131212;
-  border-color: #131212;
-}
-
-/* VK */
-.btn-vk {
-  background-color: #5e82a8;
-  border-color: #5e82a8;
-}
-
-.btn-vk:hover,
-a .btn-vk:hover {
-  background-color: #415c78;
-  border-color: #415c78;
-}
-
-/*  Xing */
-.btn-xing {
-  background-color: #175e60;
-  border-color: #175e60;
-}
-
-.btn-xing:hover,
-a .btn-xing:hover {
-  background-color: #082222;
-  border-color: #082222;
-}
-
-/*  Tumblr */
-.btn-tumblr {
-  background-color: #35465c;
-  border-color: #35465c;
-}
-
-.btn-tumblr:hover,
-a .btn-tumblr:hover {
-  background-color: #19212b;
-  border-color: #19212b;
+a.share#xing {
+	color: #0a6463;
 }
